@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="./float.css">
 </head>
+
 <body>
-        <!-- 方法一：给父级元素添加声明：overflow:hidden;
-        例：
-        -->
-        <div class="wrap clear">
-           <div class="box01"></div>
-           <div class="box02"></div>
-        </div>
+    <!-- 方法三：在浮动元素下方添加空div，并声明：{clear:both;height:0;overflow:hidden;} -->
+    <div class="wrapper">
+        <div class="box01">box</div>
+        <div class="box02">box</div>
+        <div class="clear"></div>
+    </div>
+
+
 </body>
+
 </html>
