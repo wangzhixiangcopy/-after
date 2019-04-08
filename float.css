@@ -1,0 +1,5 @@
+/* 核心重点：overflow:hidden;
+兼容IE6以下：zoom:1; */
+.wrap{ border:3px solid #000;overflow: hidden;zoom: 1;}
+.box01{ width:500px; height:500px; background:#F00; float: left;}
+.box02{ width:500px; height:500px; background:#09F; float: left;}
