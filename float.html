@@ -10,13 +10,14 @@
 </head>
 
 <body>
-    <!-- 方法三：在浮动元素下方添加空div，并声明：{clear:both;height:0;overflow:hidden;} -->
-    <div class="wrapper">
+
+    <div class="wrapper clear">
         <div class="box01">box</div>
         <div class="box02">box</div>
-        <div class="clear"></div>
     </div>
-
+    <!-- 方法四：万能清除浮动法
+    
+    方法四备注：(class:"clear" 添加在父级元素class中： class:"wrap clear") -->
 
 </body>
 
